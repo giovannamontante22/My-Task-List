@@ -76,7 +76,9 @@ li {
     color: saddlebrown;
 }
 
-
+p {
+  margin: 0;
+}
 
 .saved-notes{
 
