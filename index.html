@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task List</title>
+    <link rel="stylesheet" href="Task_List.css">
+</head>
+
+<body>
+
+   
+
+    <div class="container">
+        <h1 id="color_text">My Task List</h1>
+        <input type="text" id="taskInput" placeholder="Write a task...">
+        <button id="button">Add</button>
+        <button id="clearBtn">Delete all</button>
+        <ul id="taskList">
+            <li>Write a book</li>
+            <li>Drink a tea</li>
+            <li>Buy a new chair</li>
+        </ul>
+    </div>
+
+    <div class="notes_block">
+        <h2 id="color_text">Notes</h2>
+        <textarea type="text" id="note" rows="10" cols="70" placeholder="Write here something..."></textarea>
+        <button id="save_notes">Save</button>
+
+    </div>
+
+
+    <div class="saved-notes">
+        <h2 id="color_text">Saved Notes</h2>
+        <ul id="notesList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
